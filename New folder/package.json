@@ -1,0 +1,13 @@
+{
+  "name": "pratham",
+  "version": "1.0.0",
+  "description": "its first practies nodejs ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prathamesh",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {}
+}
