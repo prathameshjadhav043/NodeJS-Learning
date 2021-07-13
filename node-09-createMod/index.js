@@ -12,13 +12,23 @@
 
 // for multiple
 
-const fun = require('./fun');
+// const fun = require('./fun');
 
-let add = fun.add;
+// let add = fun.add;
+// console.log(add(20, 19));
+
+// let sub = fun.sub;
+// console.log(sub(20, 19));
+
+// let mul = fun.mul;
+// console.log(mul(20, 19));
+
+// for multiple
+
+const { add, sub, mul } = require('./fun');
+
 console.log(add(20, 19));
 
-let sub = fun.sub;
 console.log(sub(20, 19));
 
-let mul = fun.mul;
 console.log(mul(20, 19));

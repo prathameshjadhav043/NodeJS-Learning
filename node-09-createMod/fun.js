@@ -14,6 +14,8 @@ const mul = (a, b) => {
 
 //  for multiple we used 
 
-module.exports.add = add;
-module.exports.sub = sub;
-module.exports.mul = mul;
+// module.exports.add = add;
+// module.exports.sub = sub;
+// module.exports.mul = mul;
+
+module.exports = { add, sub, mul };

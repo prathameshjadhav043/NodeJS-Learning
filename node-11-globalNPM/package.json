@@ -1,0 +1,11 @@
+{
+  "name": "11-globalnpm",
+  "version": "1.0.0",
+  "description": "practies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prathamesh Jadhav",
+  "license": "ISC"
+}
