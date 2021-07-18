@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box {
+  position: relative;
+  margin: auto;
+  top: 100px;
+  width: 30vh;
+  padding: 10px;
+  height: 50vh;
+  border-radius: 10px;
+  background-color: rgb(58, 184, 216);
+}
+.wave {
+  margin: auto;
+  position: absolute;
+  top: 140px;
+  left: -100px;
+  width: 60vh;
+  height: 60vh;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#weathercon,
+h3,
+p {
+  text-align: center;
+  padding: 8px 0px;
+  font-size: 12px;
+  font-weight: 100;
+  color: gray;
+}
+h4 {
+  text-align: center;
+  padding: 8px 0px;
+}
+.fa-sun {
+  display: flex;
+  font-size: 70px;
+  justify-content: center;
+}
+.info {
+  text-align: center;
+  padding: 20px;
+}
+.location {
+  padding: 0px;
+}
+.fa-street-view {
+  font-size: 40px;
+}
+p,
+.temp,
+.tempmin_max {
+  position: relative;
+  padding: 8px;
+  z-index: 3;
+}

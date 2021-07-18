@@ -18,18 +18,27 @@ const server = http.createServer();
 
 // second method
 
+// server.on('request', (req, res) => {
+//     const rstream = fs.createReadStream('input.txt');
+//     rstream.on('data', (chunkdata) => {
+//         res.write(chunkdata);
+//     });
+//     rstream.on('end', () => {
+//         res.end();
+//     });
+//     rstream.on('error', (err) => {
+//         console.log(err);
+//         res.end('file not found');
+//     });
+// });
+// server.listen(8082);
+
+// Third method
+// stream pipe in nodejs
+
 server.on('request', (req, res) => {
     const rstream = fs.createReadStream('input.txt');
-    rstream.on('data', (chunkdata) => {
-        res.write(chunkdata);
-    });
-    rstream.on('end', () => {
-        res.end();
-    });
-    rstream.on('error', (err) => {
-        console.log(err);
-        res.end('file not found');
-    });
+    rstream.pipe(res);
 });
 server.listen(8082);
 
